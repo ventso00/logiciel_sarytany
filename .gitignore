@@ -1,0 +1,36 @@
+# ===== Dossiers de build .NET / WPF (genere par "dotnet build") =====
+bin/
+obj/
+.publish/
+artifacts/
+TestResults/
+
+# ===== Visual Studio =====
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===== Livrables publies =====
+# Les executables compiles sont exclus du depot source et se distribuent
+# separement via GitHub Releases apres validation et signature.
+SarytanyAssistant/release/
+*.exe
+Installation Terra/_archive/
+.work/
+# Artefacts locaux de previsualisation; une capture Terra contenait un ID de poste.
+.freebuff/
+Installation Terra/docs/screenshots/settings.png
+
+# ===== Fichiers temporaires divers =====
+*.tmp
+*.log
+~$*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Dossiers/outils locaux =====
+.qoder/
+Temp/
